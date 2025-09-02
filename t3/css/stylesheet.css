@@ -1,0 +1,55 @@
+/* assignment 1 */
+
+/* div{
+    display: inline-block;
+    background-color: aliceblue;
+    margin:5px;
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: black ;
+    padding : 5px;
+    border-width : 5px;
+}
+
+.shape-1{
+    border: 5px  solid red 
+}
+
+.shape-2{
+    border-color: blue green;
+    border-style: solid;
+    
+}
+
+.shape-3{
+    border-color: red green blue yellow;
+    border-style: dashed;
+    
+
+} */
+
+/* assignment 2 */
+
+.element{
+    background-color: rgb(223, 223, 223);
+    width: 400px;
+    margin: 10px;
+    padding: 10px 30px;
+    display: inline-block;
+    outline-style: solid ;
+    outline-color: rgb(223, 223, 223);
+    outline-width: 10px;
+}
+
+.element-1{
+    border-left: 5px solid #e91e63;
+    
+}
+
+.element-2{
+    visibility: hidden;
+}
+
+.element-3{
+     border-left: 5px solid rgb(36, 138, 138) ;
+}
