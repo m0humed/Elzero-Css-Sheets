@@ -1,0 +1,93 @@
+/* Assignment 1 */
+/* div{
+    background-color: #eee;
+    width: 300px;
+    height: 60px;
+    margin: 10px ;
+    display: grid;
+    place-items: center;
+}
+
+div:empty{
+    background-color: red;
+} */
+
+
+/* Assignment 2 */
+/* 
+div{
+    font-size: small;
+    background-color: #eee;
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div::first-letter{
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  padding-left:5px;
+  top: 20px;
+  left: -50% ;
+} 
+*/
+
+/* Assignment 3 */
+
+/* p {
+    position: relative;
+    background-color: #eee;
+    border-left: 4px green solid;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+p::after{
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-color:transparent green transparent transparent;
+    border-width: 6px;
+    height: 0px;
+    width: 0px;
+    left: -16px;
+    top: 35%;
+}
+
+p::before{
+    content: attr(data-person);
+    position: absolute;
+    background-color: #eee;
+    left: -60px;
+} */
+
+/* Assignment 4 */
+
+p{
+    background-color: #eee;
+    border-right: chocolate solid 2px;
+    counter-increment: f-counter;
+    position: relative;
+    padding: 5px;
+    margin-left: 5%;
+}
+
+p::before{
+    content: counter(f-counter) ;
+    position: absolute;
+    background-color: chocolate;
+    left: -3%;
+    top: 0%;
+    padding: 5px;
+}
+
+
+
+
+
+
+
