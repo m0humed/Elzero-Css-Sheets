@@ -1,0 +1,281 @@
+/* Assignment 1 */
+/* body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 49%;
+  color: orangered;
+  border-left: blue solid 5px;
+  border-right: orangered solid 5px;
+
+} */
+
+/* Assignment 2 */
+/* body{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.parent{
+  width: 600px;
+  height:300px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  padding: 5px;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  background-color: red;
+  width: 32%;
+  height: 30px;
+  flex-wrap: wrap;
+  
+} */
+
+/* Assignment 3 */
+/* 
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.parent{
+  width: 600px;
+  height:300px;
+  background-color:#eee;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: space-between;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 31%;
+  height: 20px;
+  background-color:cadetblue;
+  color: white;
+}
+
+.one{
+  order: 6;
+  align-self: flex-end;
+
+}
+
+.two {
+  order: 5;
+  height: 50%;
+}
+
+.three{
+  order:2;
+  align-self: flex-start;
+}
+
+.four{
+  order:3;
+  height: 50%;
+}
+
+.five{
+  order:4;
+  height: 50%;
+}
+
+.six{
+  order:1;
+  height: 50%;
+} */
+
+/* Assignment 4 */
+/* body{
+  display: flex;
+  justify-content: center;
+}
+
+
+.parent{
+  width: 600px;
+  height:300px;
+  background-color:#eee;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-around; 
+  flex-direction: column;
+  padding-right: 1%;
+  padding-left: 1%;
+
+}
+
+div{
+  background-color: rgb(4, 65, 39);
+  color: white;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one ,.three {
+  width: 3.5%;
+  align-self: flex-end;
+}
+
+.two {
+  width: 50%;
+  align-self: flex-start;
+} */
+
+/* Assignment 5 */
+/* body{
+  display: flex ;
+  justify-content: center;
+}
+
+.parent{
+  width: 600px;
+  height:300px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:15%;
+  height:50%; 
+}
+
+.one{
+  order: 2;
+  align-self: flex-start;
+  background-color: aqua ;
+}
+
+
+.two {
+  order: 3;
+  align-self:flex-end;
+  background-color: blue;
+}
+
+.three{
+  order:4;
+  align-self: flex-start;
+  background-color: rgb(175, 21, 129) ;
+}
+
+.four{
+  order: 1;
+  align-self:flex-end;
+  background-color: brown;
+} */
+
+/* Assignment 6 */
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.page{
+  display: flex;
+  flex-wrap: wrap;
+  
+  width: 90%;
+  height: 100%;
+  background-color: rgb(238,238,238);
+  padding:5px;
+}
+
+.header{
+  display:flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom:5px ;
+}
+
+.logo{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  font-size: small;
+}
+
+.links{
+  width: 75%;
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:flex-end ;
+  background-color: aqua;
+  margin: 0;
+  font-size: small;
+}
+.links li{
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+.main-area{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.content{
+  width: 60%;
+  background-color: aqua;
+  
+}
+
+.sidebar{
+  width: 35%;
+  background-color: aqua;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: small;
+  background-color: aqua;
+  padding: .4em;
+}
+
+

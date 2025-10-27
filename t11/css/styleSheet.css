@@ -57,6 +57,7 @@ div::before{
 } */
 
 div {
+  width: 300px;
   padding: var(--mainPadding,10px);
   margin: var(--mainPadding,5px);
   border: 2px solid var(--mainColor , black);
